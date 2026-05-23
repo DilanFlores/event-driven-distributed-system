@@ -1,80 +1,82 @@
-# 🚀 Sistema Distribuido Basado en Eventos
+# 🚀 Event-Driven Distributed System
 
-Sistema distribuido orientado al procesamiento, monitoreo y visualización de datos en tiempo real mediante una arquitectura moderna, desacoplada y escalable.
+Distributed system focused on real-time data processing, monitoring, and visualization using a modern, decoupled, and scalable architecture.
 
 ---
 
-## 📌 Descripción
+# 📌 Description
 
-Este proyecto implementa una arquitectura distribuida basada en eventos utilizando **Apache Kafka** como sistema central de mensajería para permitir la comunicación asíncrona entre múltiples servicios.
+This project implements an event-driven distributed architecture using Apache Kafka as the central messaging platform to enable asynchronous communication between multiple services.
 
-La solución integra servicios desarrollados en:
+The solution integrates services developed with:
 
 - .NET
 - Node.js (Express)
 - Python
 
-Además, incorpora funcionalidades como:
+Additionally, it includes functionalities such as:
 
-- Procesamiento distribuido de datos
-- Tareas en segundo plano con Hangfire
-- Generación de archivos PDF
-- Integración con SQL Server (AdventureWorks)
-- Visualización y monitoreo mediante Power BI
+- Distributed data processing
+- Background jobs with Hangfire
+- PDF report generation
+- SQL Server (AdventureWorks) integration
+- Monitoring and visualization with Power BI
 
 ---
 
-# ⚙️ Tecnologías Utilizadas
+# ⚙️ Technologies Used
 
 ## Backend
+
 - .NET
 - Node.js + Express
 - Python
 
-## Mensajería y Procesamiento
+## Messaging & Processing
+
 - Apache Kafka
 - Hangfire
 
-## Base de Datos
+## Database
+
 - SQL Server
 - AdventureWorks
 
-## Monitoreo y Visualización
+## Monitoring & Visualization
+
 - Power BI
 
 ---
 
-# ✨ Características
+# ✨ Features
 
-- ✅ Arquitectura basada en eventos
-- ✅ Procesamiento distribuido de datos
-- ✅ Comunicación asíncrona entre servicios
-- ✅ Streaming de eventos mediante Kafka
-- ✅ Tareas en segundo plano con Hangfire
-- ✅ Generación automática de reportes PDF
-- ✅ Integración con SQL Server
-- ✅ Dashboards y monitoreo con Power BI
-- ✅ Arquitectura multi-servicio
-
----
-
-# 📊 Flujo General del Sistema
-
-1. Los servicios productores generan eventos.
-2. Apache Kafka distribuye los mensajes de forma asíncrona.
-3. Los servicios consumidores procesan los eventos recibidos.
-4. La información se almacena en SQL Server.
-5. Power BI visualiza métricas y datos del sistema.
-6. Las tareas automatizadas y reportes se ejecutan en segundo plano.
+✅ Event-driven architecture  
+✅ Distributed data processing  
+✅ Asynchronous communication between services  
+✅ Event streaming using Kafka  
+✅ Background job processing with Hangfire  
+✅ Automatic PDF report generation  
+✅ SQL Server integration  
+✅ Dashboards and monitoring with Power BI  
+✅ Multi-service architecture  
 
 ---
 
-# 🎯 Objetivos del Proyecto
+# 📊 System Workflow
 
-- Implementar una arquitectura distribuida escalable.
-- Aplicar patrones de comunicación asíncrona.
-- Integrar múltiples tecnologías backend.
-- Mejorar el desacoplamiento y escalabilidad del sistema.
-- Centralizar el monitoreo y procesamiento de datos.
+1. Producer services generate events  
+2. Apache Kafka distributes messages asynchronously  
+3. Consumer services process incoming events  
+4. Data is stored in SQL Server  
+5. Power BI visualizes system metrics and data  
+6. Automated tasks and reports run in the background  
 
-```
+---
+
+# 🎯 Project Goals
+
+- Implement a scalable distributed architecture
+- Apply asynchronous communication patterns
+- Integrate multiple backend technologies
+- Improve system decoupling and scalability
+- Centralize monitoring and data processing
