@@ -55,6 +55,9 @@ packages/
 .dockerignore
 
 # Secrets / configuración sensible
+.env
+.env.*
+!.env.example
 appsettings.Development.json
 appsettings.Local.json
 *.pfx
