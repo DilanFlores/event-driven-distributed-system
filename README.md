@@ -83,6 +83,6 @@ Additionally, it includes functionalities such as:
 
 ---
 
-# 📷 Screenshots
+# 📷 Diagram
 
 ![Home](./assets/EventDriven.jpeg)
